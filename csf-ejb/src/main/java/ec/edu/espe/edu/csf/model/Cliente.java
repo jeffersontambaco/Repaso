@@ -65,6 +65,7 @@ public class Cliente implements Serializable {
 
     public void setCedula(String cedula) {
         this.cedula = cedula;
+        //pryue
     }
 
     public String getCliNombre() {
