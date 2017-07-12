@@ -60,6 +60,7 @@ public class Cliente implements Serializable {
 
     public String getCedula() {
         return cedula;
+        //otra mas 
     }
 
     public void setCedula(String cedula) {
