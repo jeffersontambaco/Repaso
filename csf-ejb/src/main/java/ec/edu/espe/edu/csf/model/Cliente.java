@@ -1,4 +1,3 @@
-
 package ec.edu.espe.edu.csf.model;
 
 import java.io.Serializable;
@@ -14,7 +13,6 @@ import javax.persistence.OneToMany;
 import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
-
 
 @Entity
 @Table(name = "cliente")
@@ -51,7 +49,9 @@ public class Cliente implements Serializable {
     public Cliente(String cedula, String cliNombre) {
         this.cedula = cedula;
         this.cliNombre = cliNombre;
+
         //cleintenuevo
+        //h
     }
 
     public String getCedula() {
@@ -102,5 +102,5 @@ public class Cliente implements Serializable {
     public String toString() {
         return "ec.edu.espe.edu.csf.model.Cliente[ cedula=" + cedula + " ]";
     }
-    
+
 }
