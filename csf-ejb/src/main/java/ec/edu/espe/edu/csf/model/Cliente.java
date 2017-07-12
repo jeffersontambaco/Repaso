@@ -15,10 +15,7 @@ import javax.persistence.Table;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-/**
- *
- * @author jeffe
- */
+
 @Entity
 @Table(name = "cliente")
 @NamedQueries({
@@ -45,6 +42,7 @@ public class Cliente implements Serializable {
 
     public Cliente(String cedula) {
         this.cedula = cedula;
+        //envia cedula
     }
 
     public Cliente(String cedula, String cliNombre) {
