@@ -6,10 +6,7 @@ import javax.ejb.Stateless;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 
-/**
- *
- * @author jeffe
- */
+
 @Stateless
 public class CuentaFacade extends AbstractFacade<Cuenta> implements CuentaFacadeLocal {
 
