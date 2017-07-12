@@ -44,6 +44,7 @@ public class Cliente implements Serializable {
         this.cedula = cedula;
         //envia cedula
         //cliente
+        //cliente
     }
 
     public Cliente(String cedula, String cliNombre) {
