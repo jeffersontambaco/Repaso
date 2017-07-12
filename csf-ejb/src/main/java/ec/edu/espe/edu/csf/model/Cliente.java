@@ -67,11 +67,16 @@ public class Cliente implements Serializable {
     public void setCedula(String cedula) {
         this.cedula = cedula;
 
+        
+        //ultima prueba
+
+
         //comer
         //ultima prueba
 
         //pryue
         //otra prueba
+
 
     }
 
